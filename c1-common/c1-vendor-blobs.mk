@@ -60,13 +60,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c1-common/proprietary/libtvout.so:system/lib/libtvout.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/c1-common/proprietary/BCM4330B1_002.001.003.0128.0162.hcd:system/bin/BCM4330B1_002.001.003.0128.0162.hcd \
+    vendor/samsung/c1-common/proprietary/btld:system/bin/btld \
+    vendor/samsung/c1-common/proprietary/BCM4330B1_002.001.003.0221.0265.hcd:system/bin/BCM4330B1_002.001.003.0221.0265.hcd \
     vendor/samsung/c1-common/proprietary/rild:system/bin/rild \
     vendor/samsung/c1-common/proprietary/tvoutserver:system/bin/tvoutserver
-
-PRODUCT_COPY_FILES += \
-    vendor/samsung/c1-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/c1-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/c1-common/proprietary/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
@@ -77,7 +74,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/c1-common/proprietary/firmware/qt602240.fw:system/etc/firmware/qt602240.fw \
     vendor/samsung/c1-common/proprietary/firmware/RS_M5LS_OB.bin:system/etc/firmware/RS_M5LS_OB.bin \
-    vendor/samsung/c1-common/proprietary/firmware/RS_M5LS_OC.bin:system/etc/firmware/RS_M5LS_OC.bin \
     vendor/samsung/c1-common/proprietary/firmware/RS_M5LS_OE.bin:system/etc/firmware/RS_M5LS_OE.bin \
     vendor/samsung/c1-common/proprietary/firmware/RS_M5LS_TB.bin:system/etc/firmware/RS_M5LS_TB.bin \
     vendor/samsung/c1-common/proprietary/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin
