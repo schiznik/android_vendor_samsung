@@ -13,7 +13,8 @@
 # limitations under the License.
 
 # Prebuilt libraries that are needed to build open-source libraries
+PRODUCT_COPY_FILES := \
 
-# All the blobs necessary for galaxys2
-    
-    
+# All the blobs necessary for galaxys2 devices
+PRODUCT_COPY_FILES += \
+

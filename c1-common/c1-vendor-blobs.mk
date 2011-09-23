@@ -155,5 +155,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c1-common/proprietary/offmode_charging/chargingwarning.qmg:system/media/chargingwarning.qmg \
     vendor/samsung/c1-common/proprietary/offmode_charging/Disconnected.qmg:system/media/Disconnected.qmg
 
-
-
