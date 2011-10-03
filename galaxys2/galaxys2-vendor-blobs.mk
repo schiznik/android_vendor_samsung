@@ -14,7 +14,22 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
+    vendor/samsung/galaxys2/proprietary/libril.so:obj/lib/libril.so \
+    vendor/samsung/galaxys2/proprietary/libsecril-client.so:obj/lib/libsecril-client.so
 
-# All the blobs necessary for galaxys2 devices
+# All the blobs necessary for galaxys2
+
+# RIL
 PRODUCT_COPY_FILES += \
-
+    vendor/samsung/galaxys2/proprietary/libril.so:system/lib/libril.so \
+    vendor/samsung/galaxys2/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/galaxys2/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/galaxys2/proprietary/rild:system/bin/rild
+    
+# Keychars
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2/proprietary/keychars/Broadcom_Bluetooth_HID.kcm.bin:system/usr/keychars/Broadcom_Bluetooth_HID.kcm.bin \
+    vendor/samsung/galaxys2/proprietary/keychars/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
+    vendor/samsung/galaxys2/proprietary/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
+    vendor/samsung/galaxys2/proprietary/keychars/sec_key.kcm.bin:system/usr/keychars/sec_key.kcm.bin \
+    vendor/samsung/galaxys2/proprietary/keychars/sec_touchkey.kcm.bin:system/usr/keychars/sec_touchkey.kcm.bin
